@@ -1,6 +1,8 @@
 CodePush
 
-Copyright (c) 2020-present shihuimiao
+Copyright (c) 2022-present Many Kim
+
+Copyright (c) 2020-2022 shihuimiao
 
 Copyright (c) 2015-2019 Microsoft Corporation
 

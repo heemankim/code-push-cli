@@ -1,5 +1,5 @@
 {
-  "name": "@shm-open/code-push-cli",
+  "name": "@many-kim/code-push-cli",
   "version": "2.6.1",
   "description": "Management CLI for the CodePush service",
   "main": "bin/cli.js",
@@ -58,7 +58,6 @@
     "yazl": "2.5.1"
   },
   "devDependencies": {
-    "@shm-open/eslint-config-bundle": "1.9.13",
     "@types/node": "16.11.45",
     "@types/semver": "7.3.10",
     "@types/which": "2.0.1",

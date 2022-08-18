@@ -833,9 +833,10 @@ function printCollaboratorsList(format: string, collaborators: CollaboratorMap):
         var dataSource = { collaborators: collaborators };
         printJson(dataSource);
     } else if (format === 'table') {
+        const collaboratorsEmail = Object.keys(collaborators);
         out.table(
             out.getCommandOutputTableOptions(generateColoredTableTitles(['E-mail Address'])),
-            collaborators.map((email) => [getCollaboratorDisplayName(email, collaborators[email])]),
+            collaboratorsEmail.map((email) => [getCollaboratorDisplayName(email, collaborators[email])]),
         );
     }
 }
